@@ -1,0 +1,97 @@
+@font-face {
+font-family: "myfonts"; 
+src: url("fonts/myfonts.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	background: url("image/background.png") no-repeat;                       
+	color: #000000;
+	font-family: Arial, Times New Roman;
+	font-size: 16px;
+	background-size: 100%;		
+}
+
+#container {
+	background: linear-gradient(to right bottom, #ffffff50, #cf720090);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 100%;
+}
+
+#header-top {
+	background: #ffd6b799;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family:"myfonts";
+	font-size:42px;	
+	color: #930;
+	text-align: center;
+}
+
+#header-top > img {
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+#header-top > h2 {
+	margin: 0;
+}
+
+#headerauth {
+	background: #ffd6b799;
+	min-width: 250px;
+	font-family:arial;
+	font-size:12px;
+	height: 100%;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+#navigation {
+	background: #fff3f299;
+}
+
+#menu {
+	background: #ffd6b799;
+	min-width: 350px;
+
+}
+
+#menu > h2 {
+	margin-left: 10px;
+	color: #930;
+}
+
+#menu > a, p {
+	margin-left: 25px;
+	color: #930;
+}
+
+#content {
+	background: #ffd6b750;
+	width: 100%;
+}
+
+#content > h2, h1 {
+	margin-left: 10px;
+	color: #930;
+}
+
+#content a {
+	margin: 20px;
+	color: #930;
+}
